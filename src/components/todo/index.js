@@ -12,13 +12,11 @@ const containerStyle = {
   '&:not(:nth-of-type(1))': {
     borderTop: '1px solid black',
   },
-  '& > *': {
-    flex: '0 1 100%',
-  },
 };
 
 const nameStyle = {
   display: 'block',
+  flex: '1 1 auto',
 };
 
 const statusStyle = {
@@ -33,11 +31,14 @@ const userStyle = {
   flex: '0 0 auto',
 };
 
-const Todo = ({id, userId, title, completed}) => {
+const Todo = ({id, title, completed}) => {
   return (
     <div css={containerStyle}>
       <div css={nameStyle}>{title}</div>
-      <User id={userId}>
+      {/* The JSON placeholder orders them by user so grabbing */}
+      {/* So grabbing 10 will result in all the same user.     */}
+      {/* We are using the todo id so they are different       */}
+      <User id={id}>
         {(user, {loading, error}) => {
           if (loading) return 'loading';
           if (error) return error;

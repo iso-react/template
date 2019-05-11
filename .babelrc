@@ -8,5 +8,6 @@
         }
       }
     ],
+    "@iso-react/config/babel-emotion"
   ]
 }

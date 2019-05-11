@@ -23,6 +23,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@emotion/core": "^10.0.10",
     "@iso-react/config": "^1.0.2-beta.13",
     "@iso-react/core": "^1.0.0-beta.11",
     "@iso-react/data": "^1.0.1",

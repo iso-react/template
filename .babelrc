@@ -1,0 +1,12 @@
+{
+  "presets": [
+    [
+      "@iso-react/config/babel",
+      {
+        "env": {
+          "targets": "> 0.25%, not dead"
+        }
+      }
+    ],
+  ]
+}

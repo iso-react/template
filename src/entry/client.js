@@ -1,6 +1,7 @@
+/* istanbul ignore file */
 import React from 'react';
 import {hydrate} from 'react-dom';
-import {DataClient, DataCache} from '@iso-react/data';
+import {DataClient} from '@iso-react/data';
 
 import Root from '~/root/client';
 

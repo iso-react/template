@@ -1,6 +1,6 @@
 import React from 'react';
 import {StaticRouter} from 'react-router-dom';
-import {DataClient, DataCache, getInitialState} from '@iso-react/data';
+import {DataClient, getInitialState} from '@iso-react/data';
 
 import App from '~/components/app';
 

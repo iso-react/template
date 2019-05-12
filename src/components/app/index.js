@@ -8,7 +8,9 @@ import config from '~/config';
 const App = ({client}) => {
   return (
     <DataContext.Provider value={client}>
-      <div><TodoList/></div>
+      <div data-testid="app">
+        <TodoList />
+      </div>
     </DataContext.Provider>
   );
 };

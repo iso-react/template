@@ -1,3 +1,4 @@
+/* istanbul ignore file */
 import {IsoServer} from '@iso-react/core';
 import {getRoot} from '~/root/server';
 
